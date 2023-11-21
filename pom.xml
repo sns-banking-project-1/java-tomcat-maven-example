@@ -8,8 +8,8 @@
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-	  	<sonar.host.url>http://172.31.11.243:9000/</sonar.host.url>
-		<sonar.login>squ_d47988a6da6c80a621e697d8e1b65ba9fddec41f</sonar.login>
+	  	<sonar.host.url>http://172.31.38.172:9000/</sonar.host.url>
+		<sonar.login>squ_c0232d9c0dfd241fac4d640d856fdff6638a8823</sonar.login>
   </properties>  
   
   <dependencies>
@@ -25,13 +25,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.43.195:9980/test/repository/citibank-releases/</url>
+	      <url>http://172.31.43.243:8081/repository/RemoteRepo1/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.43.195:9980/test/repository/citibank-snapshot/</url>
+	      <url>http://172.31.43.243:8081/repository/RemoteRepo1s/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 
